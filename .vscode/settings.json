@@ -1,0 +1,86 @@
+{
+  // EDITOR SETTINGS
+  "editor.formatOnSave": true,
+  "editor.lineHeight": 20,
+  "editor.minimap.enabled": true,
+  "editor.fontSize": 13,
+  "editor.fontLigatures": false,
+  "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Customize specific formatting behavior
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+
+  // Enable formatting for specific languages
+  "[sql]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Prettier Configuration
+  "prettier.printWidth": 80,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "prettier.bracketSpacing": true,
+
+  // Custom Prettier settings for SQL
+  "prettier.sql": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "trailingComma": "none",
+    "singleQuote": true
+  },
+
+  // Terminal
+  "terminal.integrated.fontSize": 12,
+
+  // Workbench
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "editor.background": "#171717",
+    "editorLineNumber.activeForeground": "#35d7dd",
+    "editor.selectionBackground": "#366ea350",
+    "editor.lineHighlightBackground": "#63636331",
+    "tab.activeBackground": "#171717",
+    "tab.hoverBackground": "#171717",
+    "tab.hoverForeground": "#ffffff",
+    "activityBarBadge.background": "#16d8df9c",
+    "terminal.background": "#18181a",
+    "terminal.ansiGreen": "#069435",
+    "terminal.ansiMagenta": "#da1cda",
+    "terminal.ansiYellow": "#cfc30f"
+  },
+
+  // PHP Configuration
+  "php.suggest.basic": false,
+  "php.validate.executablePath": "E:/XAMPP/php/php.exe",
+
+  // Live Server
+  "liveServer.settings.port": 5502,
+
+  // Emmet for JS files
+  "emmet.includeLanguages": {
+    "javascript": "html"
+  },
+
+  // Auto-save
+  "files.autoSave": "onWindowChange",
+
+  // Window zoom
+  "window.zoomLevel": -2,
+
+  // Prettier settings for other file types (optional)
+  "prettier.jsxSingleQuote": true,
+  "prettier.arrowParens": "avoid"
+}
